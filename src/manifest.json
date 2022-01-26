@@ -1,0 +1,23 @@
+{
+  "name": "Text To Speech",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/wol/icon16.png",
+    "48": "icons/wol/icon48.png",
+    "128": "icons/wol/icon128.png"
+  },
+  "manifest_version": 2
+}
